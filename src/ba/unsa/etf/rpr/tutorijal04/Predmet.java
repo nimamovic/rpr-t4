@@ -9,6 +9,10 @@ public class Predmet{
     Predmet(ArrayList<Student> niz){
         setStudentiNaPredmetu(niz);
     }
+
+    public Student upisiStudenta(String s){
+        return 0;
+    }
     public ArrayList<Student> getStudentiNaPredmetu() {
         return studentiNaPredmetu;
     }

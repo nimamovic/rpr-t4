@@ -7,6 +7,11 @@ public class Semestar {
     private int ukupniECTS;
     private ArrayList<Predmet> predmetiSemestra;
 
+    public Semestar(){}
+    public Semestar(int semestar,int ukupniECTS){
+        setSemestar(semestar);
+        setUkupniECTS(ukupniECTS);
+    }
     public int getSemestar() {
         return semestar;
     }
