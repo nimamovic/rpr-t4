@@ -4,6 +4,33 @@ import java.util.ArrayList;
 
 public class Predmet{
     private ArrayList<Student> studentiNaPredmetu;
+    private String imePredmeta;
+    private int ECTSBodovi;
+    private boolean obavezan;
+
+    public String getImePredmeta() {
+        return imePredmeta;
+    }
+
+    public void setImePredmeta(String imePredmeta) {
+        this.imePredmeta = imePredmeta;
+    }
+
+    public int getECTSBodovi() {
+        return ECTSBodovi;
+    }
+
+    public void setECTSBodovi(int ECTSBodovi) {
+        this.ECTSBodovi = ECTSBodovi;
+    }
+
+    public boolean isObavezan() {
+        return obavezan;
+    }
+
+    public void setObavezan(boolean obavezan) {
+        this.obavezan = obavezan;
+    }
 
     Predmet(){}
     Predmet(ArrayList<Student> niz){
