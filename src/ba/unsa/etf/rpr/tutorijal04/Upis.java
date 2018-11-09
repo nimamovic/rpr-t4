@@ -7,6 +7,7 @@ public class Upis {
     private PlanStudija planStudija;
     private Student student;
 
+    Upis(){}
     public ArrayList<Predmet> getPredmeti() {
         return predmeti;
     }
