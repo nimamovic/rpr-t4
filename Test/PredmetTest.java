@@ -1,38 +1,31 @@
 package ba.unsa.etf.rpr.tutorijal04;
 
+import ba.unsa.etf.rpr.tutorijal04.Predmet;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class PredmetTest {
-
-    @org.junit.jupiter.api.Test
+    @Test
     void getImePredmeta() {
+        Predmet p = new Predmet();
+        p.setImePredmeta("Osnove elektrotehnike")
+        assertEquals("Osnove elektrotehnike", p.getImePredmeta();
     }
 
-    @org.junit.jupiter.api.Test
-    void setImePredmeta() {
-    }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void getECTSBodovi() {
+        Predmet p = new Predmet();
+        p.setECTSBodovi(7)
+        assertEquals(7, p.getECTSBodovi());
     }
 
-    @org.junit.jupiter.api.Test
-    void setECTSBodovi() {
-    }
 
-    @org.junit.jupiter.api.Test
+    @Test
     void isObavezan() {
+        Predmet p = new Predmet();
+        p.setObavezan(true)
+        assertEquals(true, isObavezan());
     }
 
-    @org.junit.jupiter.api.Test
-    void setObavezan() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void upisiStudenta() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void getStudentiNaPredmetu() {
-    }
 }

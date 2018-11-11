@@ -8,6 +8,7 @@ public class Predmet{
     private int ECTSBodovi;
     private boolean obavezan;
 
+
     public String getImePredmeta() {
         return imePredmeta;
     }
@@ -47,4 +48,6 @@ public class Predmet{
     public void setStudentiNaPredmetu(ArrayList<Student> studentiNaPredmetu) {
         this.studentiNaPredmetu = studentiNaPredmetu;
     }
+/*
+    */
 }
