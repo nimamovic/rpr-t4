@@ -48,6 +48,5 @@ public class Predmet{
     public void setStudentiNaPredmetu(ArrayList<Student> studentiNaPredmetu) {
         this.studentiNaPredmetu = studentiNaPredmetu;
     }
-/*
-    */
+
 }
