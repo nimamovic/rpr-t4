@@ -7,6 +7,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class PredmetTest {
     @Test
     void getImePredmeta() {
+
         Predmet p = new Predmet();
         p.setImePredmeta("Osnove elektrotehnike")
         assertEquals("Osnove elektrotehnike", p.getImePredmeta();
